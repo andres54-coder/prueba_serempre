@@ -103,6 +103,13 @@ _Sino tienes configurado un virtualHost en tu entorno de desarrollo puedes utili
 ```
 php artisan serve
 ```
+_Puedes usar este usuario para ingresar a la aplicación_
+```
+Email: pruebaSerempre@serempre.com
+Password: serempre
+```
+
+---
 ## Construido con 🛠️
 
 _Herramientas que utilize para el proyecto_
@@ -117,7 +124,7 @@ _Herramientas que utilize para el proyecto_
 
 
 
-**Andrés Felipe Castañeda Malgon** - *Trabajo Inicial* - 
+**Andrés Felipe Castañeda Malagon** - *Trabajo Inicial* - 
 
 
 
