@@ -30,8 +30,7 @@ class cityController extends Controller
      */
     public function create()
     {
-        $cities = city::all();
-        return view('city.create',compact('cities'));
+        return view('city.create');
     }
 
     /**
@@ -84,7 +83,7 @@ class cityController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'name'=>'required|max:25',
+            'name'=>'required|max:255',
         ]);
         $city=city::findOrFail($id);
         $city->fill($request->all())->save();

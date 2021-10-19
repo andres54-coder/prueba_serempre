@@ -4,7 +4,7 @@
         <h2 class="font-semibold text-xl text-gray-800 leading-tight mb-3">
             {{ __('Ciudades') }}
         </h2>
-        <a class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold mb-2 py-2 px-4 border border-purple-600  rounded cursor-pointer hover:bg-purple-600 hover:text-white text-purple-600 ease-linear transition-all duration-150" href="{{route('client.create')}}">
+        <a class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold mb-2 py-2 px-4 border border-purple-600  rounded cursor-pointer hover:bg-purple-600 hover:text-white text-purple-600 ease-linear transition-all duration-150" href="{{route('city.create')}}">
             Crear
         </a>
         <form action="{{route('city.index')}}" method="get">

@@ -47,7 +47,6 @@ _Genera una llave secreta para la api del proyecto_
 php artisan jwt:secret
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Rutas para las pruebas de api ⚙️
 _Puedes utilizar [Postman](https://www.postman.com/) para testear la api_

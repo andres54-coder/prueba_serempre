@@ -23,7 +23,6 @@ class clientController extends Controller
                 $query->where('name','LIKE', '%'.$text.'%');
             })
             ->paginate(10);
-        //dd($clients);
         return view('client.index',compact('clients','text'));
     }
 
@@ -47,7 +46,7 @@ class clientController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name'=>'required|max:25',
+            'name'=>'required|max:255',
             'city_id'=>'required'
         ]);
        $request['cod']=uniqid();
@@ -90,7 +89,7 @@ class clientController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'name'=>'required|max:25',
+            'name'=>'required|max:255',
             'city_id'=>'required'
         ]);
         $client=client::findOrFail($id);
