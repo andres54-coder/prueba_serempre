@@ -127,9 +127,7 @@ _Herramientas que utilize para el proyecto_
 
 ## Notas 📓
 
-NOTA - Para el cargue de información de clientes solo se podra suir una archivo .xlsx con una columna en donde la primera fila se trendra que llamar "name"
-
-
+NOTA - Para el cargue de información de clientes solo se podra subir una archivo .xlsx con una columna en donde la primera fila se trendra que llamar "name".
 
 
 
